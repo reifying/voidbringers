@@ -11,4 +11,4 @@ cd <project root>
 gcloud functions deploy voidbringers --entry-point functions.HelloWorld --runtime java11 --trigger-http
 ```
 
-3. Open ``httpsTrigger`` URL as listed in the cloud output
+3. Open ``httpsTrigger`` URL as listed in the gcloud output
